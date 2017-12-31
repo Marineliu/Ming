@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021ADBC61FF8C069001AD948 /* NTAPlayerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 021ADBC51FF8C069001AD948 /* NTAPlayerFactory.m */; };
+		021ADBCB1FF8C078001AD948 /* NTAEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 021ADBC81FF8C078001AD948 /* NTAEnemy.m */; };
+		021ADBCC1FF8C078001AD948 /* NTAPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 021ADBCA1FF8C078001AD948 /* NTAPlayer.m */; };
+		021ADBCF1FF8C0AA001AD948 /* NTAStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 021ADBCE1FF8C0AA001AD948 /* NTAStartView.m */; };
+		021ADBD61FF8CEC8001AD948 /* NTAGameObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 021ADBD51FF8CEC8001AD948 /* NTAGameObserver.m */; };
+		022496341FEFAE25008C464F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 022496331FEFAE25008C464F /* main.m */; };
+		022496371FEFAE25008C464F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 022496361FEFAE25008C464F /* AppDelegate.m */; };
+		0224963D1FEFAE25008C464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0224963B1FEFAE25008C464F /* Main.storyboard */; };
+		0224963F1FEFAE25008C464F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0224963E1FEFAE25008C464F /* Assets.xcassets */; };
+		022496421FEFAE25008C464F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022496401FEFAE25008C464F /* LaunchScreen.storyboard */; };
+		029978DF1FEFD779004F40C6 /* NTAMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029978DE1FEFD779004F40C6 /* NTAMainController.m */; };
+		02C0A8B41FF7DB0600BB55C2 /* NTARoler.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C0A8B31FF7DB0600BB55C2 /* NTARoler.m */; };
+		02C0A8BF1FF7DEC500BB55C2 /* NTARolerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C0A8BE1FF7DEC500BB55C2 /* NTARolerFactory.m */; };
+		02C0A8C51FF7E19900BB55C2 /* NTAEnemyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C0A8C41FF7E19900BB55C2 /* NTAEnemyFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021ADBC41FF8C069001AD948 /* NTAPlayerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAPlayerFactory.h; path = Factory/NTAPlayerFactory.h; sourceTree = "<group>"; };
+		021ADBC51FF8C069001AD948 /* NTAPlayerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAPlayerFactory.m; path = Factory/NTAPlayerFactory.m; sourceTree = "<group>"; };
+		021ADBC71FF8C078001AD948 /* NTAEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAEnemy.h; path = Model/NTAEnemy.h; sourceTree = "<group>"; };
+		021ADBC81FF8C078001AD948 /* NTAEnemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAEnemy.m; path = Model/NTAEnemy.m; sourceTree = "<group>"; };
+		021ADBC91FF8C078001AD948 /* NTAPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAPlayer.h; path = Model/NTAPlayer.h; sourceTree = "<group>"; };
+		021ADBCA1FF8C078001AD948 /* NTAPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAPlayer.m; path = Model/NTAPlayer.m; sourceTree = "<group>"; };
+		021ADBCD1FF8C0AA001AD948 /* NTAStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAStartView.h; path = view/NTAStartView.h; sourceTree = "<group>"; };
+		021ADBCE1FF8C0AA001AD948 /* NTAStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAStartView.m; path = view/NTAStartView.m; sourceTree = "<group>"; };
+		021ADBD41FF8CEC8001AD948 /* NTAGameObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTAGameObserver.h; sourceTree = "<group>"; };
+		021ADBD51FF8CEC8001AD948 /* NTAGameObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTAGameObserver.m; sourceTree = "<group>"; };
+		0224962F1FEFAE25008C464F /* Ming_Saving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ming_Saving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		022496331FEFAE25008C464F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		022496351FEFAE25008C464F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		022496361FEFAE25008C464F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0224963C1FEFAE25008C464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0224963E1FEFAE25008C464F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		022496411FEFAE25008C464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		022496431FEFAE25008C464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029978DD1FEFD779004F40C6 /* NTAMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAMainController.h; path = Controller/NTAMainController.h; sourceTree = "<group>"; };
+		029978DE1FEFD779004F40C6 /* NTAMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAMainController.m; path = Controller/NTAMainController.m; sourceTree = "<group>"; };
+		02C0A8B21FF7DB0600BB55C2 /* NTARoler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTARoler.h; path = Model/NTARoler.h; sourceTree = "<group>"; };
+		02C0A8B31FF7DB0600BB55C2 /* NTARoler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTARoler.m; path = Model/NTARoler.m; sourceTree = "<group>"; };
+		02C0A8BD1FF7DEC500BB55C2 /* NTARolerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTARolerFactory.h; path = Factory/NTARolerFactory.h; sourceTree = "<group>"; };
+		02C0A8BE1FF7DEC500BB55C2 /* NTARolerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTARolerFactory.m; path = Factory/NTARolerFactory.m; sourceTree = "<group>"; };
+		02C0A8C31FF7E19900BB55C2 /* NTAEnemyFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAEnemyFactory.h; path = Factory/NTAEnemyFactory.h; sourceTree = "<group>"; };
+		02C0A8C41FF7E19900BB55C2 /* NTAEnemyFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAEnemyFactory.m; path = Factory/NTAEnemyFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0224962C1FEFAE25008C464F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021ADBD01FF8C191001AD948 /* GameObserver */ = {
+			isa = PBXGroup;
+			children = (
+				021ADBD41FF8CEC8001AD948 /* NTAGameObserver.h */,
+				021ADBD51FF8CEC8001AD948 /* NTAGameObserver.m */,
+			);
+			path = GameObserver;
+			sourceTree = "<group>";
+		};
+		022496261FEFAE25008C464F = {
+			isa = PBXGroup;
+			children = (
+				022496311FEFAE25008C464F /* Ming_Saving */,
+				022496301FEFAE25008C464F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		022496301FEFAE25008C464F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0224962F1FEFAE25008C464F /* Ming_Saving.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		022496311FEFAE25008C464F /* Ming_Saving */ = {
+			isa = PBXGroup;
+			children = (
+				021ADBD01FF8C191001AD948 /* GameObserver */,
+				02C0A8BC1FF7DE9A00BB55C2 /* Factory */,
+				029978D91FEFB417004F40C6 /* Model */,
+				029978D81FEFB411004F40C6 /* Controller */,
+				029978D71FEFB404004F40C6 /* View */,
+				022496351FEFAE25008C464F /* AppDelegate.h */,
+				022496361FEFAE25008C464F /* AppDelegate.m */,
+				0224963B1FEFAE25008C464F /* Main.storyboard */,
+				0224963E1FEFAE25008C464F /* Assets.xcassets */,
+				022496401FEFAE25008C464F /* LaunchScreen.storyboard */,
+				022496431FEFAE25008C464F /* Info.plist */,
+				022496321FEFAE25008C464F /* Supporting Files */,
+			);
+			path = Ming_Saving;
+			sourceTree = "<group>";
+		};
+		022496321FEFAE25008C464F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				022496331FEFAE25008C464F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		029978D71FEFB404004F40C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				021ADBCD1FF8C0AA001AD948 /* NTAStartView.h */,
+				021ADBCE1FF8C0AA001AD948 /* NTAStartView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		029978D81FEFB411004F40C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				029978DD1FEFD779004F40C6 /* NTAMainController.h */,
+				029978DE1FEFD779004F40C6 /* NTAMainController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		029978D91FEFB417004F40C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02C0A8B21FF7DB0600BB55C2 /* NTARoler.h */,
+				02C0A8B31FF7DB0600BB55C2 /* NTARoler.m */,
+				021ADBC71FF8C078001AD948 /* NTAEnemy.h */,
+				021ADBC81FF8C078001AD948 /* NTAEnemy.m */,
+				021ADBC91FF8C078001AD948 /* NTAPlayer.h */,
+				021ADBCA1FF8C078001AD948 /* NTAPlayer.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		02C0A8BC1FF7DE9A00BB55C2 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				02C0A8BD1FF7DEC500BB55C2 /* NTARolerFactory.h */,
+				02C0A8BE1FF7DEC500BB55C2 /* NTARolerFactory.m */,
+				021ADBC41FF8C069001AD948 /* NTAPlayerFactory.h */,
+				021ADBC51FF8C069001AD948 /* NTAPlayerFactory.m */,
+				02C0A8C31FF7E19900BB55C2 /* NTAEnemyFactory.h */,
+				02C0A8C41FF7E19900BB55C2 /* NTAEnemyFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0224962E1FEFAE25008C464F /* Ming_Saving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022496461FEFAE25008C464F /* Build configuration list for PBXNativeTarget "Ming_Saving" */;
+			buildPhases = (
+				0224962B1FEFAE25008C464F /* Sources */,
+				0224962C1FEFAE25008C464F /* Frameworks */,
+				0224962D1FEFAE25008C464F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ming_Saving;
+			productName = Ming_Saving;
+			productReference = 0224962F1FEFAE25008C464F /* Ming_Saving.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		022496271FEFAE25008C464F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "柳宇男";
+				TargetAttributes = {
+					0224962E1FEFAE25008C464F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MPS4UWL42H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0224962A1FEFAE25008C464F /* Build configuration list for PBXProject "Ming_Saving" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 022496261FEFAE25008C464F;
+			productRefGroup = 022496301FEFAE25008C464F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0224962E1FEFAE25008C464F /* Ming_Saving */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0224962D1FEFAE25008C464F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022496421FEFAE25008C464F /* LaunchScreen.storyboard in Resources */,
+				0224963F1FEFAE25008C464F /* Assets.xcassets in Resources */,
+				0224963D1FEFAE25008C464F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0224962B1FEFAE25008C464F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021ADBCB1FF8C078001AD948 /* NTAEnemy.m in Sources */,
+				02C0A8B41FF7DB0600BB55C2 /* NTARoler.m in Sources */,
+				022496371FEFAE25008C464F /* AppDelegate.m in Sources */,
+				02C0A8C51FF7E19900BB55C2 /* NTAEnemyFactory.m in Sources */,
+				021ADBCF1FF8C0AA001AD948 /* NTAStartView.m in Sources */,
+				02C0A8BF1FF7DEC500BB55C2 /* NTARolerFactory.m in Sources */,
+				021ADBD61FF8CEC8001AD948 /* NTAGameObserver.m in Sources */,
+				021ADBC61FF8C069001AD948 /* NTAPlayerFactory.m in Sources */,
+				029978DF1FEFD779004F40C6 /* NTAMainController.m in Sources */,
+				021ADBCC1FF8C078001AD948 /* NTAPlayer.m in Sources */,
+				022496341FEFAE25008C464F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0224963B1FEFAE25008C464F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0224963C1FEFAE25008C464F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		022496401FEFAE25008C464F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022496411FEFAE25008C464F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		022496441FEFAE25008C464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		022496451FEFAE25008C464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		022496471FEFAE25008C464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MPS4UWL42H;
+				INFOPLIST_FILE = Ming_Saving/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarineAce.Ming-Saving";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		022496481FEFAE25008C464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MPS4UWL42H;
+				INFOPLIST_FILE = Ming_Saving/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarineAce.Ming-Saving";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0224962A1FEFAE25008C464F /* Build configuration list for PBXProject "Ming_Saving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022496441FEFAE25008C464F /* Debug */,
+				022496451FEFAE25008C464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		022496461FEFAE25008C464F /* Build configuration list for PBXNativeTarget "Ming_Saving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022496471FEFAE25008C464F /* Debug */,
+				022496481FEFAE25008C464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 022496271FEFAE25008C464F /* Project object */;
+}
