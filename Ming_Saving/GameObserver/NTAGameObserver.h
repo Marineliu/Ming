@@ -27,7 +27,6 @@
 @property (nonatomic) SEL selector;
 @property (nonatomic, weak) id observedObject;
 @property (nonatomic, copy) NSString* keyPath;
-@property (nonatomic,copy)NSString *testString;
 
 
 @end
