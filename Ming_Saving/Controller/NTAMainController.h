@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#define VIEW_BOUNDS self.view.frame
 
-@interface NTAMainController : UIViewController
+@protocol NTAMainVCProtocol <NSObject>
+
+- (void)addBackImageView;
+- (void)setBackImageViewWithImageName:(NSString *)imageString;
+- (void)drawMainView;
+
+@end
+
+@interface NTAMainController : UIViewController<NTAMainVCProtocol>
 
 @property (nonatomic,retain)UIImageView *backImageView;
-@property (nonatomic,retain)NSObject *mainView;
-@property (nonatomic,retain)UIView *obView;
 
 @end

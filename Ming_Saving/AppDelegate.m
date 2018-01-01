@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "NTAMainController.h"
+#import "NTALoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-    NTAMainController *vc = [[NTAMainController alloc]init];
+    NTALoginViewController *vc = [[NTALoginViewController alloc]init];
     
     self.window.rootViewController = vc;
     

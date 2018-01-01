@@ -104,12 +104,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ming_Saving/Controller/NTAMainController.m"
-            timestampString = "536398673.907972"
+            timestampString = "536419792.258831"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "-getNewRoler"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-backImageView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ming_Saving/Controller/NTALoginViewController.m"
+            timestampString = "536422641.070276"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-drawMainView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ming_Saving/Controller/NTALoginViewController.m"
+            timestampString = "536422641.070276"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-setBackImageViewWithImageName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ming_Saving/Controller/NTALoginViewController.m"
+            timestampString = "536422413.321729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -120,12 +168,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ming_Saving/Controller/NTAMainController.m"
-            timestampString = "536398673.907972"
+            timestampString = "536420040.106383"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -135,13 +183,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Ming_Saving/Controller/NTAMainController.m"
-            timestampString = "536398673.907972"
+            filePath = "Ming_Saving/Controller/NTALoginViewController.m"
+            timestampString = "536423610.894815"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "-KVOWithRoler:"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-setBtnWithPressList:NormalList:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -151,13 +199,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Ming_Saving/Controller/NTAMainController.m"
-            timestampString = "536400749.51957"
+            filePath = "Ming_Saving/Controller/NTALoginViewController.m"
+            timestampString = "536425687.444742"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "-changeNameForRoler"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-setBtnWithPressList:NormalList:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -167,13 +215,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Ming_Saving/Controller/NTAMainController.m"
-            timestampString = "536400749.51957"
+            filePath = "Ming_Saving/Controller/NTALoginViewController.m"
+            timestampString = "536425687.444742"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "-changeNameForRoler"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-setBtnWithPressList:NormalList:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -183,29 +231,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Ming_Saving/Controller/NTAMainController.m"
-            timestampString = "536400794.122981"
+            filePath = "Ming_Saving/Controller/NTALoginViewController.m"
+            timestampString = "536425687.444742"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Ming_Saving/Controller/NTAMainController.m"
-            timestampString = "536400795.84025"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-setBtnWithPressList:NormalList:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -31,60 +31,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self getNewRoler];
-    [self setBackImageViewWithImageName:@"fish.png"];
-    [self addBtn];
 }
 
 - (void)setBackImageViewWithImageName:(NSString *)imageString
 {
-    self.backImageView.image = [UIImage imageNamed:imageString];
-    
-    [self.view addSubview:self.backImageView];
+    /* set needed image soucce */
 }
 
-- (void)getNewRoler
+- (void)addBackImageView
 {
-    _roler = [NTAEnemyFactory createARoler];
-    [self KVOWithRoler:_roler];
-    [_roler PrintRolerInfo];
+    /* add if needed */
 }
 
-
-- (void)KVOWithRoler:(NTARoler *)roler
+- (void)drawMainView
 {
-    
-    [roler addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:@"null"];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-}
-
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
-{
-    if ([keyPath isEqualToString:@"name"])
-    {
-        NSLog(@"名字发生了改变");
-    }
-}
-
-- (void)addBtn
-{
-    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(30, 30, 200, 200)];
-    [btn setBackgroundColor:[UIColor redColor]];
-    [btn addTarget:self action:@selector(changeNameForRoler) forControlEvents:UIControlEventTouchDown];
-    [self.view addSubview:btn];
-}
-
-- (void)changeNameForRoler
-{
-    NSInteger randomNum = arc4random() % 101;
-    NSString *string = [NSString stringWithFormat:@"%ld",(long)randomNum];
-    _roler.name = string;
-    
-    NSLog(@"%@",_roler.name);
+    /* main view method */
 }
 
 @end

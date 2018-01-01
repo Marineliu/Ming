@@ -12,6 +12,8 @@
 		021ADBCC1FF8C078001AD948 /* NTAPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 021ADBCA1FF8C078001AD948 /* NTAPlayer.m */; };
 		021ADBCF1FF8C0AA001AD948 /* NTAStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 021ADBCE1FF8C0AA001AD948 /* NTAStartView.m */; };
 		021ADBD61FF8CEC8001AD948 /* NTAGameObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 021ADBD51FF8CEC8001AD948 /* NTAGameObserver.m */; };
+		021ADC8B1FF91972001AD948 /* NTALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021ADC8A1FF91972001AD948 /* NTALoginViewController.m */; };
+		021ADC8F1FF92197001AD948 /* NTAMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 021ADC8E1FF92197001AD948 /* NTAMainButton.m */; };
 		022496341FEFAE25008C464F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 022496331FEFAE25008C464F /* main.m */; };
 		022496371FEFAE25008C464F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 022496361FEFAE25008C464F /* AppDelegate.m */; };
 		0224963D1FEFAE25008C464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0224963B1FEFAE25008C464F /* Main.storyboard */; };
@@ -34,6 +36,10 @@
 		021ADBCE1FF8C0AA001AD948 /* NTAStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAStartView.m; path = view/NTAStartView.m; sourceTree = "<group>"; };
 		021ADBD41FF8CEC8001AD948 /* NTAGameObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTAGameObserver.h; sourceTree = "<group>"; };
 		021ADBD51FF8CEC8001AD948 /* NTAGameObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTAGameObserver.m; sourceTree = "<group>"; };
+		021ADC891FF91972001AD948 /* NTALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTALoginViewController.h; path = Controller/NTALoginViewController.h; sourceTree = "<group>"; };
+		021ADC8A1FF91972001AD948 /* NTALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTALoginViewController.m; path = Controller/NTALoginViewController.m; sourceTree = "<group>"; };
+		021ADC8D1FF92197001AD948 /* NTAMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTAMainButton.h; sourceTree = "<group>"; };
+		021ADC8E1FF92197001AD948 /* NTAMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTAMainButton.m; sourceTree = "<group>"; };
 		0224962F1FEFAE25008C464F /* Ming_Saving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ming_Saving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		022496331FEFAE25008C464F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		022496351FEFAE25008C464F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +78,15 @@
 			path = GameObserver;
 			sourceTree = "<group>";
 		};
+		021ADC8C1FF92150001AD948 /* NTAControl */ = {
+			isa = PBXGroup;
+			children = (
+				021ADC8D1FF92197001AD948 /* NTAMainButton.h */,
+				021ADC8E1FF92197001AD948 /* NTAMainButton.m */,
+			);
+			path = NTAControl;
+			sourceTree = "<group>";
+		};
 		022496261FEFAE25008C464F = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +106,7 @@
 		022496311FEFAE25008C464F /* Ming_Saving */ = {
 			isa = PBXGroup;
 			children = (
+				021ADC8C1FF92150001AD948 /* NTAControl */,
 				021ADBD01FF8C191001AD948 /* GameObserver */,
 				02C0A8BC1FF7DE9A00BB55C2 /* Factory */,
 				029978D91FEFB417004F40C6 /* Model */,
@@ -129,6 +145,8 @@
 			children = (
 				029978DD1FEFD779004F40C6 /* NTAMainController.h */,
 				029978DE1FEFD779004F40C6 /* NTAMainController.m */,
+				021ADC891FF91972001AD948 /* NTALoginViewController.h */,
+				021ADC8A1FF91972001AD948 /* NTALoginViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -241,6 +259,8 @@
 				021ADBC61FF8C069001AD948 /* NTAPlayerFactory.m in Sources */,
 				029978DF1FEFD779004F40C6 /* NTAMainController.m in Sources */,
 				021ADBCC1FF8C078001AD948 /* NTAPlayer.m in Sources */,
+				021ADC8F1FF92197001AD948 /* NTAMainButton.m in Sources */,
+				021ADC8B1FF91972001AD948 /* NTALoginViewController.m in Sources */,
 				022496341FEFAE25008C464F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
